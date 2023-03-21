@@ -1,0 +1,52 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --blue: #44749d;
+  --gray: #c6d4e1;
+  --white: #ffffff;
+  --fosc: #ebe7e0;
+  --moreFosc: #bdb8ad;
+  --letter: #0c0c0c;
+}
+
+body {
+  background-color: var(--fosc)
+}
+
+
+.img-carrossel {
+
+  height: 80vh;
+  filter : brightness(70%);
+}
+
+.title-heroPage {
+  background-color: #0c0c0c00;
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  z-index: 9999;
+  text-align: center;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: auto;
+  width: auto;
+  padding: 20px;
+}
+
+.title-heroPage h3 {
+ 
+}
+
+.title-heroPage p {
+  font-size: 20pt;
+  font-weight: 900;
+}
